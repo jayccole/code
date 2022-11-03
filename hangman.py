@@ -11,23 +11,18 @@ hang_word = random.choice(wlist)
 print(hang_word)
 
 #introduction
-print("Welcome to Hangman! Guess the word in less than 5 tries!")
+print("Welcome to Hangman! Guess the word in less than 6 tries!")
 
 guess = input("Please guess a single letter: ")
 #store information for later
 guess1 = guess
 
 #input validation
-if len(guess) == 1 and guess.isalpha():
-    if guess in hang_word:
-        print("indeed")
+while guesses < 6
+    if len(guess) == 1 and guess.isalpha():
+        
+    elif guess == "":
+        print("Please pick a letter.")
+    elif
     else:
-        print("wrong, guess again!")
-else:
     print("pick a letter, bitch")
-
-
-#check if guess is correct
-answer = (guess1 + guess2 + guess3 + guess4)
-while hang_word != answer:
-    
